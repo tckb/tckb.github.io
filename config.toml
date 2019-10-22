@@ -6,12 +6,10 @@ title = "Chandra's Personal Stuff"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
-theme = "beautifulhugo"
+theme = "Lanyon"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
 
 [Params]
   subtitle = "Chandra's Personal Ramblings"
