@@ -12,6 +12,7 @@ disqusShortname = "tckb"
 enableEmoji = true
 enableRobotsTXT = true
 enableGitInfo = true
+footnoteReturnLinkContents = "↩"
 
 
 
@@ -22,10 +23,7 @@ enableGitInfo = true
 
 
 [frontmatter]
-    date = ["date", "publishDate", "lastmod"]
-    lastmod = [":git", "lastmod", "date", "publishDate"]
-    publishDate = ["publishDate", "date"]
-    expiryDate = ["expiryDate"]
+    date = ["date",":git", "default"]
 
 [sitemap]
   changefreq = "monthly"
@@ -36,29 +34,37 @@ enableGitInfo = true
   hrefTargetBlank = true
   nofollowLinks = true
   noreferrerLinks = true
+  smartypants = true
 
 [Permalinks]
  posts = "/:year/:filename/"
 
 [menu]
-  [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 2
 
   [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 1
 
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+
 [params]
     since = 2019
     author = "Chandra"
-    subtitle = " . ∕tʃǽndrə∕"
+    subtitle = " ∕tʃǽndrə∕ ⚈ Software Engineer ⚈ a Father ⚈ Coffeeholic"
     home_mode = "other" # post or other
     avatar = "profile.jpg" #comment it to use gravatar
     socialShare = true
-    description = "I turn ☕ ☕ to artful piece of code.."
+    description = "I "
     keywords = "blog,developer,personal"
     commit = "https://gitlab.com/tckb1/tckb1.gitlab.io/tree/"
 
@@ -71,7 +77,7 @@ enableGitInfo = true
     Linkedin = "chandrakiranbt"
     Twitter = "this_is_tckb"
     #Instagram = "xxxx"
-    #Email   = "me@tgrthi.me"
+    Email   = "me@tgrthi.me"
     #Facebook = "xxxx"
     #Telegram = "xxxx"
     #Medium = "xxxx"

@@ -1,7 +1,5 @@
----
-title: About me
-subtitle: Who am I?
-comments: true
----
-
-this is a test
++++
+title = "About"
+aliases = ["about-us","about-hugo","contact"]
+comments = true
++++
