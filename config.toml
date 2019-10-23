@@ -67,6 +67,9 @@ footnoteReturnLinkContents = "↩"
     description = "I "
     keywords = "blog,developer,personal"
     commit = "https://gitlab.com/tckb1/tckb1.gitlab.io/tree/"
+    favicon_png = "favicon.png"
+    favicon_png_sizes = "16x16 32x32"
+    appleicon = "apple-touch-icon.png"
 
 [params.gravatar]
     #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
