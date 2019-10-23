@@ -60,11 +60,11 @@ footnoteReturnLinkContents = "↩"
 [params]
     since = 2019
     author = "Chandra"
-    subtitle = " ∕tʃǽndrə∕ ⚈ Software Engineer ⚈ a Father ⚈ Coffeeholic"
+    subtitle = " ∕tʃʌnðrɑ∕ ⚈ Software Engineer ⚈ a Father ⚈ Coffeeholic"
     home_mode = "other" # post or other
     avatar = "profile.jpg" #comment it to use gravatar
     socialShare = true
-    description = "I "
+    description = "Isds"
     keywords = "blog,developer,personal"
     commit = "https://gitlab.com/tckb1/tckb1.gitlab.io/tree/"
     favicon_png = "favicon.png"
