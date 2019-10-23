@@ -12,7 +12,7 @@ test:
 
 pages:
   script:
-  - hugo
+  - HUGO_ENV=production hugo --gc --minify
   artifacts:
     paths:
     - public

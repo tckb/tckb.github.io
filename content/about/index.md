@@ -1,5 +1,7 @@
 ---
 title: About me
 subtitle: Who am I?
-comments: false
+comments: true
 ---
+
+this is a test
