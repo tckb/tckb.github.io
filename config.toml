@@ -42,7 +42,7 @@ footnoteReturnLinkContents = "↩"
 [menu]
 
   [[menu.main]]
-    name = "About"
+    name = "About me"
     url = "/about/"
     weight = 1
 
