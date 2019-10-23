@@ -6,6 +6,6 @@ tags = [
     "development",
 ]
 categories = [
-    "Development",
+    "Development"
 ]
 +++
