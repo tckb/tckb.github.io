@@ -1,78 +1,193 @@
 baseurl = "https://tckb.tgrthi.me"
-contentdir    = "content"
-layoutdir     = "layouts"
-publishdir    = "public"
-title = "Chandra's Personal Stuff"
-canonifyurls  = true
+title = "Chandra's Ramblings"
+theme = "KeepIt"
+languagecode = "en"
+defaultcontentlanguage = "en"
+paginate = 20
+canonifyurls = true
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+disqusShortname = "tckb"
+enableEmoji = true
+enableRobotsTXT = true
+enableGitInfo = true
+footnoteReturnLinkContents = "↩"
 
-DefaultContentLanguage = "en"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-pygmentsUseClasses = true
-pygmentCodeFences = true
 
-[Params]
-  subtitle = "Chandra's Personal Ramblings"
-  logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
 
-[Author]
-  name = "Chandra Tungathurthi"
-  email = "tckb@tgrthi.me"
-  gitlab = "tckb1"
-  github = "tckb"
-  twitter = "this_is_tckb"
-  linkedin = "chandrakiranbt"
 
-[[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
+[frontmatter]
+    date = ["date",":git", "default"]
 
-[[menu.main]]
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+  smartypants = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+
+  [[menu.main]]
     name = "About"
-    url = "page/about/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "projects"
-    name = "Samples"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
+    url = "/about/"
     weight = 1
 
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
     weight = 2
 
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
 
 [[menu.main]]
-    name = "Tags"
-    url = "tags"
+    name = "Categories"
+    url = "/categories/"
     weight = 3
+
+[params]
+    since = 2019
+    author = "Chandra"
+    subtitle = " ∕tʃǽndrə∕ ⚈ Software Engineer ⚈ a Father ⚈ Coffeeholic"
+    home_mode = "other" # post or other
+    avatar = "profile.jpg" #comment it to use gravatar
+    socialShare = true
+    description = "I "
+    keywords = "blog,developer,personal"
+    commit = "https://gitlab.com/tckb1/tckb1.gitlab.io/tree/"
+
+[params.gravatar]
+    #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
+
+
+[params.social]
+    GitHub = "tckb"
+    Linkedin = "chandrakiranbt"
+    Twitter = "this_is_tckb"
+    #Instagram = "xxxx"
+    Email   = "me@tgrthi.me"
+    #Facebook = "xxxx"
+    #Telegram = "xxxx"
+    #Medium = "xxxx"
+    Gitlab = "tckb1"
+    #Youtubelegacy = "xxxx"
+    #Youtubecustom = "xxxx"
+    #Youtubechannel = "xxxx"
+    #Tumblr ="xxxx"
+    #Quora = "xxxx"
+    #Keybase = "xxxx"
+    #Pinterest = "xxxx"
+    #Reddit = "xxxx"
+    #Codepen = "xxxx"
+    #Bitbucket = "xxxx"
+    #Stackoverflow = "xxxxx"
+    #Weibo = "xxxx"
+    #Odnoklassniki = "xxxx"
+    #VKontakte = "xxxx"
+    #Flickr = "xxxx"
+    #Xing = "xxxx"
+    #Snapchat = "xxxx"
+    #Soundcloud = "xxxx"
+    #Spotify = "xxxx"
+    #Bandcamp = "xxxx"
+    #Paypal = "xxxx"
+    #Fivehundredpx = "xxxx"
+    #Mix = "xxxx"
+    #Goodreads = "xxxx"
+    #Lastfm = "xxxx"
+    #Foursquare = "xxxx"
+    #Hackernews = "xxxx"
+    #Kickstarter = "xxxx"
+    #Patreon = "xxxx"
+    #Steam = "xxxx"
+    #Twitch = "xxxx"
+    #Strava = "xxxx"
+    #Skype = "xxxx"
+    #Whatsapp = "xxxx"
+    #Zhihu = "xxxx"
+    #Douban = "xxxx"
+    #Angellist = "xxxx"
+    #Slidershare = "xxxx"
+    #Jsfiddle = "xxxx"
+    #Deviantart = "xxxx"
+    #Behance = "xxxx"
+    #Dribble = "xxxx"
+    #Wordpress = "xxxx"
+    #Vine = "xxxx"
+    #Googlescholar = "xxxx"
+    #Researchgate = "xxxx"
+    #Mastodon = "xxxx"
+    #Thingiverse = "xxxx"
+
+[params.share]
+Twitter = true
+Facebook = true
+#Reddit = true
+Linkedin = true
+#Pinterest = true
+HackerNews = true
+#Mix = true
+#Tumblr = true
+#VKontakte = true
+#Douban = true
+#Weibo = true
+
+[author]
+  name = "Chandra"
+
+  [params.publisher]
+    name = "Chandra"
+
+    [params.publisher.logo]
+      url = "logo.png"
+      width = 127
+      height = 40
+
+  [params.logo]
+    url = "profile.jpg"
+    width = 127
+    height = 40
+
+  [params.image]
+    url = "profile.jpg"
+    width = 800
+    height = 600
+#
+#[params.gitalk]
+#owner = ""       # Your GitHub ID
+#repo = ""        # The repo to store comments
+#clientId = ""    # Your client ID
+#clientSecret = "" # Your client secret
+
+#[params.valine]
+#  enable = false
+#  appId = 'your appId'
+#  appKey = 'your appKey'
+#  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+#  verify = false # Verification code
+#  avatar = 'mm'
+#  placeholder = 'your comments ...'
+#  visitor = true
+#
+#[params.utterances]       # https://utteranc.es/
+#    owner = ""              # Your GitHub ID
+#    repo = ""               # The repo to store comments
+#
+#[params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+#    owner = ""              # Your GitHub ID
+#    repo = ""               # The repo to store comments
+#    clientId = ""           # Your client ID
+#    clientSecret = ""       # Your client secret
+
