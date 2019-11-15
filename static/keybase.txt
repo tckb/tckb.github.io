@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/tckb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tckb.tgrthi.me
+  * I am tckb (https://keybase.io/tckb) on keybase.
+  * I have a public key ASBusQ7OC245pC_FZ8Ou-mmAWS0n7UUZdXqnTd3I5IvOBwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206eb10ece0b6e39a42fc567c3aefa6980592d27ed4519757aa74dddc8e48bce070a",
+      "host": "keybase.io",
+      "kid": "01206eb10ece0b6e39a42fc567c3aefa6980592d27ed4519757aa74dddc8e48bce070a",
+      "uid": "81e5e97d7c0e0345b6e325938942c719",
+      "username": "tckb"
+    },
+    "merkle_root": {
+      "ctime": 1573805018,
+      "hash": "ff0c0f7dbab145653559b41c69acfc4a09e9816d78dbbee17a104b270b123df784cd27db9bd8e6718df747f0531000b9d13736dd4c1465404a2c13fa676540e4",
+      "hash_meta": "8d652cb2153095746e00b73e5001c904f959db0995fdb38e469ca9b1a65f799b",
+      "seqno": 9639150
+    },
+    "service": {
+      "entropy": "O7bCXZJARcqK3L5Ee64qVJTU",
+      "hostname": "tckb.tgrthi.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.2"
+  },
+  "ctime": 1573805025,
+  "expire_in": 504576000,
+  "prev": "e48c9eadfa774394890e58a31185b917ac25b16c8aef528c36bca34de4f1f238",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbrEOzgtuOaQvxWfDrvppgFktJ+1FGXV6p03dyOSLzgcKp3BheWxvYWTESpcCF8Qg5Iyerfp3Q5SJDlijEYW5F6wlsWyK71KMNryjTeTx8jjEIINew6KhHw2bRkIq/hGr5OEWMFCmsVAABl7g+YFpnTq4AgHCo3NpZ8RAmqSq2Ai7A81sEzBVNP8gud9tiNHvX8Cr3gSXcA7UFFscHyNPRjBRwb0aXFI8OprGIf7blEHnOe8FPz8b+Cf4BahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJ896T6H4ihHCj9sOs6X3ZSuGBbsdDk6oBrXGMQPAXlyo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tckb
+
+==================================================================
