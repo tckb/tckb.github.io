@@ -13,7 +13,7 @@ enableEmoji = true
 enableRobotsTXT = true
 enableGitInfo = true
 footnoteReturnLinkContents = "↩"
-
+googleAnalytics = "UA-167549458-1"
 
 
 [taxonomies]
