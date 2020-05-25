@@ -1,0 +1,154 @@
+baseurl: 'https://tckb.tgrthi.me'
+title: Chandra's Ramblings
+theme: KeepIt
+languagecode: en
+defaultcontentlanguage: en
+paginate: 20
+canonifyurls: true
+pygmentsstyle: bw
+pygmentscodefences: true
+pygmentscodefencesguesssyntax: true
+disqusShortname: tckb
+enableEmoji: true
+enableRobotsTXT: true
+enableGitInfo: true
+footnoteReturnLinkContents: ↩
+googleAnalytics: "UA-167549458-1"
+uglyURLs: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ''
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: true
+    style: pastie
+    tabWidth: 4
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: false
+      xhtml: false
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+frontmatter:
+  date:
+    - date
+    - ':git'
+    - default
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+Permalinks:
+  posts: '/:year/:filename/'
+menu:
+  main:
+    - name: About me
+      url: /about/
+      weight: 1
+    - name: Blog
+      url: /posts/
+      weight: 2
+    - name: Categories
+      url: /categories/
+      weight: 3
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: false
+  minifyOutput: false
+  tdewolff:
+    css:
+      decimals: -1
+      keepCSS2: true
+    html:
+      keepConditionalComments: true
+      keepDefaultAttrVals: true
+      keepDocumentTags: true
+      keepEndTags: true
+      keepWhitespace: false
+    js: {}
+    json: {}
+    svg:
+      decimals: -1
+    xml:
+      keepWhitespace: false
+params:
+  since: 2019
+  author: Chandra
+  subtitle: ' ∕tʃʌnðrɑ∕ ⚈ Software Engineer ⚈ a Father ⚈ Coffeeholic'
+  home_mode: post
+  gravatar:
+    email: tckb@tgrthi.me
+  socialShare: true
+  description: Isds
+  keywords: 'blog,developer,personal'
+  commit: 'https://gitlab.com/tckb1/tckb1.gitlab.io/tree/'
+  favicon_png: favicon.png
+  favicon_png_sizes: 16x16 32x32
+  appleicon: apple-touch-icon.png
+  license: 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  social:
+    GitHub: tckb
+    Linkedin: chandrakiranbt
+    Twitter: this_is_tckb
+    Email: me@tgrthi.me
+    Gitlab: tckb1
+  share:
+    Twitter: true
+    Facebook: false
+    Linkedin: true
+    HackerNews: true
+    copyright: "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+  publisher:
+    name: Chandra
+    logo:
+      url: logo.png
+      width: 127
+      height: 40
+  logo:
+    url: profile.jpg
+    width: 127
+    height: 40
+  image:
+    url: profile.jpg
+    width: 800
+    height: 600
+author:
+  name: Chandra
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    useSessionStorage: true
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: true
+  youtube:
+    disable: false
+    privacyEnhanced: true

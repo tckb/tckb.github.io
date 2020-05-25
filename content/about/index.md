@@ -7,7 +7,7 @@ tags = [
 ] 
 +++
 
-[tʃʌnðrɑ](http://ipa-reader.xyz/?text=tʃʌnðrɑ&voice=Joey) currently works as Sr. Software Engineer at [Foryouandyourcustomers Essen cell](https://foryouandyourcustomers.com/cells/essen/?lang=en).
+[tʃʌnðrɑ](http://ipa-reader.xyz/?text=tʃʌnðrɑ&voice=Joey) currently, works as Sr. Software Engineer at [Foryouandyourcustomers Essen cell](https://foryouandyourcustomers.com/cells/essen/?lang=en).
 
 Here's a quick summary about me --
 
