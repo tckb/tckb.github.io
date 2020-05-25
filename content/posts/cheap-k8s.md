@@ -1,11 +1,13 @@
 ---
 title: Cheap Kubernetes Cluster for less than 15€ ?
-description: "How I self-hosted a kubernetes cluster for as less as 15 eur a month."
 type:
 - posts
-- post"
+- post
+series:
+- Personal Cloud Cluster
 tags: 
 - kubernetes
+- self-hosting
 categories:
 - development
 ---
