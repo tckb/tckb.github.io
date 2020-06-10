@@ -1,6 +1,6 @@
 baseurl: 'https://tckb.tgrthi.me'
-title: Chandra's Ramblings
-theme: KeepIt
+title: tʃʌnðrɑ's Ramblings
+theme: hugo-vitae
 languagecode: en
 defaultcontentlanguage: en
 paginate: 20
@@ -15,62 +15,36 @@ enableGitInfo: true
 footnoteReturnLinkContents: ↩
 googleAnalytics: "UA-167549458-1"
 uglyURLs: false
+copyright: "© 2020 Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
 
-markup:
-  defaultMarkdownHandler: goldmark
-  highlight:
-    codeFences: true
-    guessSyntax: true
-    hl_Lines: ''
-    lineNoStart: 1
-    lineNos: true
-    lineNumbersInTable: true
-    noClasses: true
-    style: pastie
-    tabWidth: 4
-  goldmark:
-    extensions:
-      definitionList: true
-      footnote: true
-      linkify: true
-      strikethrough: true
-      table: true
-      taskList: true
-      typographer: true
-    parser:
-      attribute: true
-      autoHeadingID: true
-      autoHeadingIDType: github
-    renderer:
-      hardWraps: false
-      unsafe: false
-      xhtml: false
 taxonomies:
   category: categories
   series: series
   tag: tags
+
+
 frontmatter:
   date:
     - date
     - ':git'
     - default
-sitemap:
-  changefreq: monthly
-  filename: sitemap.xml
-  priority: 0.5
+
 Permalinks:
   posts: '/:year/:filename/'
+
+
 menu:
   main:
-    - name: About me
+    - name: Me
       url: /about/
-      weight: 1
-    - name: Blog
-      url: /posts/
-      weight: 2
-    - name: Categories
-      url: /categories/
       weight: 3
+    - name: Blog Posts
+      url: /posts/
+      weight: 1
+    - name: Tags
+      url: /tags/
+      weight: 2
+
 minify:
   disableCSS: false
   disableHTML: false
@@ -95,47 +69,8 @@ minify:
       decimals: -1
     xml:
       keepWhitespace: false
-params:
-  since: 2019
-  author: Chandra
-  subtitle: ' ∕tʃʌnðrɑ∕ ⚈ Software Engineer ⚈ a Father ⚈ Coffeeholic'
-  home_mode: post
-  gravatar:
-    email: tckb@tgrthi.me
-  socialShare: true
-  description: Isds
-  keywords: 'blog,developer,personal'
-  commit: 'https://gitlab.com/tckb1/tckb1.gitlab.io/tree/'
-  favicon_png: favicon.png
-  favicon_png_sizes: 16x16 32x32
-  appleicon: apple-touch-icon.png
-  license: 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
-  social:
-    GitHub: tckb
-    Linkedin: chandrakiranbt
-    Twitter: this_is_tckb
-    Email: me@tgrthi.me
-    Gitlab: tckb1
-  share:
-    Twitter: true
-    Facebook: false
-    Linkedin: true
-    HackerNews: true
-    copyright: "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-  publisher:
-    name: Chandra
-    logo:
-      url: logo.png
-      width: 127
-      height: 40
-  logo:
-    url: profile.jpg
-    width: 127
-    height: 40
-  image:
-    url: profile.jpg
-    width: 800
-    height: 600
+
+
 author:
   name: Chandra
 privacy:
@@ -152,3 +87,61 @@ privacy:
   youtube:
     disable: false
     privacyEnhanced: true
+
+params:
+  mainSections:
+    - "posts"
+  keywords:
+    - hugo
+    - vitae
+    - theme
+    - static
+  avatar: "/img/profile.jpg"
+  customCSS: custom.css
+  since: 2019
+  pagetitle: "All about static site generation"
+  subtitle: '_a curious concoction of development and operations._'
+  socialShare: true
+  description: Isds
+  commit: 'https://gitlab.com/tckb1/tckb1.gitlab.io/tree/'
+  favicon_png: favicon.png
+  favicon_png_sizes: 16x16 32x32
+  appleicon: apple-touch-icon.png
+  license: 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  listAuthor: true
+  social:
+    - name: Github
+      icon: fab fa-github
+      url: 'https://github.com/tckb'
+    - name: Linkedin
+      icon: fab fa-linkedin
+      url: 'https://linkedin.com/in/chandrakiranbt'
+    - name: Twitter
+      icon: fab fa-twitter
+      url: 'https://twitter.com/this_is_tckb'
+    - name: Gitlab
+      icon: fab fa-gitlab
+      url: 'https://gitlab.com/tckb1'
+    - name: RSS
+      icon: fas fa-rss
+      url: /index.xml
+  share:
+    Twitter: true
+    Facebook: false
+    Linkedin: true
+    HackerNews: true
+    copyright: "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    publisher:
+      name: Chandra
+      logo:
+        url: logo.png
+        width: 127
+        height: 40
+    logo:
+      url: profile.jpg
+      width: 127
+      height: 40
+    image:
+      url: profile.jpg
+      width: 800
+      height: 600
