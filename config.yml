@@ -1,3 +1,4 @@
+baseUrl: https://tckb.tgrthi.me/
 title: tʃʌnðrɑ's Ramblings
 theme: hugo-vitae
 languagecode: en
@@ -21,16 +22,14 @@ taxonomies:
   series: series
   tag: tags
 
-
 frontmatter:
   date:
     - date
-    - ':git'
+    - ":git"
     - default
 
 Permalinks:
-  posts: '/:year/:filename/'
-
+  posts: "/:year/:filename/"
 
 menu:
   main:
@@ -69,7 +68,6 @@ minify:
     xml:
       keepWhitespace: false
 
-
 author:
   name: Chandra
 privacy:
@@ -98,10 +96,10 @@ params:
   avatar: "/img/profile.jpg"
   since: 2019
   pagetitle: "All about static site generation"
-  subtitle: '_a curious concoction of development and operations._'
+  subtitle: "_a curious concoction of development and operations._"
   socialShare: true
   description: Isds
-  commit: 'https://gitlab.com/tckb1/tckb1.gitlab.io/tree/'
+  commit: "https://gitlab.com/tckb1/tckb1.gitlab.io/tree/"
   favicon_png: favicon.png
   favicon_png_sizes: 16x16 32x32
   appleicon: apple-touch-icon.png
@@ -110,16 +108,16 @@ params:
   social:
     - name: Github
       icon: fab fa-github
-      url: 'https://github.com/tckb'
+      url: "https://github.com/tckb"
     - name: Linkedin
       icon: fab fa-linkedin
-      url: 'https://linkedin.com/in/chandrakiranbt'
+      url: "https://linkedin.com/in/chandrakiranbt"
     - name: Twitter
       icon: fab fa-twitter
-      url: 'https://twitter.com/this_is_tckb'
+      url: "https://twitter.com/this_is_tckb"
     - name: Gitlab
       icon: fab fa-gitlab
-      url: 'https://gitlab.com/tckb1'
+      url: "https://gitlab.com/tckb1"
     - name: RSS
       icon: fas fa-rss
       url: /index.xml
