@@ -1,4 +1,3 @@
-baseurl: 'https://tckb.tgrthi.me'
 title: tʃʌnðrɑ's Ramblings
 theme: hugo-vitae
 languagecode: en
@@ -97,7 +96,6 @@ params:
     - theme
     - static
   avatar: "/img/profile.jpg"
-  customCSS: custom.css
   since: 2019
   pagetitle: "All about static site generation"
   subtitle: '_a curious concoction of development and operations._'
