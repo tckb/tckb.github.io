@@ -1,6 +1,4 @@
-{{ partial "seo_schema" . }}
 <header>
-  <meta name="google-site-verification" content="cMAN242MNkQALE0zelsu0e7brm82TRubbjMFtveEI0w" />
   {{ if .Site.Params.Avatar }}
   <div id="avatar">
     <a href="{{ .Site.BaseURL }}">
@@ -38,5 +36,5 @@
       </ul>
     </nav>
   </div>
-  {{ partial "meta" . }}
+  {{ partial "seo_schema" . }}
 </header>
