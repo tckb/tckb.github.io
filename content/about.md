@@ -1,10 +1,10 @@
 ---
-title = "Who am I?"
-aliases = ["about-us","about-hugo","contact"]
-comments = false
-tags = [
+title: "Who am I?"
+aliases: ["about-us","contact"]
+comments: false
+tags: [
     "personal","resume","portfolio"
-] 
+]
 ---
 _Writing a blog post or even maintaining a blog has been a always of interest to me but has been quite challenging, because of various personal and professional reasons. Nevertheless, I tried [here](http://rand0mbitsandbytes.blogspot.com/) over serveal years ago and would even say it worked out for a while but then the interest kinda died off.  Since then, I have been doing several interesting things and the interest jump started. I will blog here from time to time._
 

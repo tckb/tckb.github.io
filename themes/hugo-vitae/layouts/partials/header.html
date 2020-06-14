@@ -1,11 +1,13 @@
+{{ partial "seo_schema" . }}
 <header>
-{{ if .Site.Params.Avatar }}
+  <meta name="google-site-verification" content="cMAN242MNkQALE0zelsu0e7brm82TRubbjMFtveEI0w" />
+  {{ if .Site.Params.Avatar }}
   <div id="avatar">
     <a href="{{ .Site.BaseURL }}">
       <img src="{{ .Site.Params.Avatar }}" alt="{{ .Site.Title }}">
     </a>
   </div>
-{{ end }}
+  {{ end }}
   <div id="titletext">
     {{- if .IsHome -}}
     <h1 id="title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
@@ -17,15 +19,15 @@
     {{- if isset .Site.Params "subtitle" -}}
     <p id="subtitle">{{ .Site.Params.Subtitle | markdownify }}</p>
     {{- end -}}
-  <div id=social>
-    <nav>
-      <ul>
-        {{- range $index, $key := .Site.Params.Social -}}
-        <li><a href="{{ $key.url }}"><i title="{{ $key.name }}" class="icons {{ $key.icon }}"></i></a></li>
-        {{- end -}}
-      </ul>
-    </nav>
-  </div>
+    <div id=social>
+      <nav>
+        <ul>
+          {{- range $index, $key := .Site.Params.Social -}}
+          <li><a href="{{ $key.url }}"><i title="{{ $key.name }}" class="icons {{ $key.icon }}"></i></a></li>
+          {{- end -}}
+        </ul>
+      </nav>
+    </div>
   </div>
   <div id="mainmenu">
     <nav>
