@@ -8,7 +8,7 @@
     },
     "articleSection" : "{{ .Section }}",
     "name" : "{{ .Title }}",
-    "headline" : "{{ .Title }}",
+    "headline" : "{{ .Title | htmlUnescape }}",
     "description" : "{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
     "inLanguage" : "en-US",
     "author" : "{{ range .Site.Author }}{{ . }}{{ end }}",
