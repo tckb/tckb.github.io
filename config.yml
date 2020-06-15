@@ -1,5 +1,5 @@
 baseUrl: https://tckb.tgrthi.me/
-title: "tscha-n-dra-s ramblings on dev and ops"
+title: "tscha-n-dra-s"
 theme: hugo-vitae
 languagecode: en
 defaultcontentlanguage: en
@@ -96,7 +96,7 @@ params:
   avatar: "/img/profile.jpg"
   since: 2019
   pagetitle: "All things about dev and ops"
-  subtitle: "_a curious concoction of development and operations._"
+  subtitle: "..ramblings on dev and ops"
   socialShare: true
   description: Isds
   commit: "https://gitlab.com/tckb1/tckb1.gitlab.io/tree/"
