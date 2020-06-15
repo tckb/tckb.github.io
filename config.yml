@@ -1,5 +1,5 @@
 baseUrl: https://tckb.tgrthi.me/
-title: tʃʌnðrɑ's Ramblings
+title: tscha-n-dra's Ramblings
 theme: hugo-vitae
 languagecode: en
 defaultcontentlanguage: en
@@ -95,7 +95,7 @@ params:
     - static
   avatar: "/img/profile.jpg"
   since: 2019
-  pagetitle: "All about static site generation"
+  pagetitle: "All things about dev and ops"
   subtitle: "_a curious concoction of development and operations._"
   socialShare: true
   description: Isds
