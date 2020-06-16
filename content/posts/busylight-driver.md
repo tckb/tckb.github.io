@@ -1,8 +1,6 @@
 ---
 title: Deconstructing Busylight communication protocol
-type:
-- posts
-- post
+hidden: true
 tags: 
 - busylight
 - driver

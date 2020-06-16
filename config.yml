@@ -3,7 +3,7 @@ title: "tscha-n-dra-s"
 theme: hugo-vitae
 languagecode: en
 defaultcontentlanguage: en
-paginate: 20
+paginate: 5
 canonifyurls: true
 pygmentsstyle: bw
 pygmentscodefences: true
@@ -87,18 +87,15 @@ privacy:
 
 params:
   mainSections:
-    - "posts"
+    - posts
   keywords:
-    - hugo
-    - vitae
-    - theme
-    - static
+    - devops
+    - kubernetes
   avatar: "/img/profile.jpg"
-  since: 2019
+  since: 2020
   pagetitle: "All things about dev and ops"
   subtitle: "..ramblings on dev and ops"
   socialShare: true
-  description: Isds
   commit: "https://gitlab.com/tckb1/tckb1.gitlab.io/tree/"
   favicon_png: favicon.png
   favicon_png_sizes: 16x16 32x32
