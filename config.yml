@@ -94,7 +94,7 @@ params:
   avatar: "/img/profile.jpg"
   since: 2020
   pagetitle: "All things about dev and ops"
-  subtitle: "..ramblings on dev and ops"
+  subtitle: "experiments with dev and ops"
   socialShare: true
   commit: "https://gitlab.com/tckb1/tckb1.gitlab.io/tree/"
   favicon_png: favicon.png
