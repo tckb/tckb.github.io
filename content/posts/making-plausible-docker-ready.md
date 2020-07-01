@@ -1,18 +1,21 @@
 ---
-title: Making Plausible possible for selfhosting 
+title: Making Plausible Analytics possible for selfhosting
+description : |
+   Creating a docker ready fork for Plausible Analytics
 type:
 - posts
 - post
 tags: 
 - selfhosting
-- plausible 
-- opensource
-- privacy
 - analytics
+keywords :  
+ - 'Plausible Analytics'
+ - 'selfhosting'
 ---
-Now this is my first blog post in several years, what better way than sharing my experience in contributing to an opensource project.
+Creating a docker ready fork for Plausible Analytics
+=====================
 
-As a privacy enthusiasts and advocate, I was searching for a privacy friendly opensource analytics tool for _this_ blog. One of my other requirement was that it should be _simple_ enough for hosting on my [k8s cluster]({{< ref "posts/cheap-k8s.md" >}}) (more on that in later posts) and after few searches I ended up finalizing two choices:
+As a privacy enthusiasts and advocate, I was searching for a privacy friendly opensource analytics tool for _this_ blog. One of my other requirement was that it should be _simple_ enough for hosting on my [k8s cluster]({{< ref "posts/cheap-kubernetes-cluster.md" >}}) (more on that in later posts) and after few searches I ended up finalizing two choices:
 
 - [Matomo](https://matomo.org/)
 - [Plausible Analytics](plausible.io/)
@@ -27,7 +30,7 @@ From their readme _back then_ --
 
 which makes **sense** being small startup. As I acquired some experiences in field of operations, I decided to make it suitable for "self-hosting".
 
-Initially, I had no plans to merge these changes into the upstream project and to be clear, I *do not* work on github anymore so I created a [Gitlab](https://gitlab.com/tckb-public/plausible) fork and started working there. After the initial [announcement](https://github.com/plausible/analytics/pull/53#issuecomment-623600917), [uku](https://twitter.com/ukutaht) was [pleased](https://github.com/plausible/analytics/issues/26#issuecomment-627298735) to hear about the progress and extended his help in untangling me with possible blockers and clarifying issues that helped me in finishing my changes.
+Initially, I had no plans to merge these changes into the upstream project and to be clear, I *do not* work on github anymore so I created a public [Gitlab fork](https://gitlab.com/tckb-public/plausible) and started working there. After the initial [announcement](https://github.com/plausible/analytics/pull/53#issuecomment-623600917), [uku](https://twitter.com/ukutaht) was [pleased](https://github.com/plausible/analytics/issues/26#issuecomment-627298735) to hear about the progress and extended his help in untangling me with possible blockers and clarifying issues that helped me in finishing my changes.
 
 After few more discussions, the final [pull-request](https://github.com/plausible/analytics/pull/64) was merged and after some cleanups, now Plausible selfhosting beta is now open 🎉🥳
 
@@ -39,4 +42,5 @@ There is still much work to do and needs more polishing and hence beta testers a
 
 I, however, still need to do some modifications to my cluster to accommodate the newly added clickhouse into my cluster. And sadly this blog is still using  *sigh* Google Analytics (Psst.. privacy mode enabled!), once I have my setup ready, I will [de-Google-ify](https://dev.to/markosaric/how-to-de-google-ify-your-website-4bfc) this blog too ✌️!
 
-More interesting articles coming soon...
+Update :
+> Plausible analytics [quoted me](https://docs.plausible.io/authors#contributors) as one their contributors. Thanks!

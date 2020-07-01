@@ -1,13 +1,15 @@
 ---
-title: Deconstructing Busylight communication protocol
-hidden: true
+title: A Java library for Kuando Busylight
+description : |
+    Deconstructing Kuando Busylight communication protocol
 tags: 
 - busylight
-- driver
-- low-level
-- opensource
+keywords :  
+ - 'Kuando Busylight'
+ - 'SDK library'
 ---
-
+Deconstructing Kuando Busylight communication protocol
+====
 
 _Thank you for the interest, the post will be added soon!_
 

@@ -2,11 +2,19 @@
 author :  'Chandra Tungathurthi'
 date :  2020-07-01T14:57:56.375Z
 title : |
- Budget Kubernetes cluster for personal use
+ Cheap Kubernetes hosting for personal use
 description : |
- Cheap and budget Kubernetes cluster for personal use using Hetzner Cloud. The article explains how to setup cluster at less than 15 euros
+    This article series explains how to host kubernetes cluster in an ultra low budget of 15 euros or less for non-production loads
 keywords :  
- - 'Kubernetes'
+ - 'Kubernetes hosting'
+ - 'selfhosting'
+aliases:
+  - /2020/cheap-k8s/
+tags: 
+- selfhosting
+- kubernetes
+series:
+-  Cheap kubernetes hosting 
 ---
 Cheap Kubernetes Cluster
 =====================
