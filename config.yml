@@ -75,8 +75,8 @@ privacy:
     disable: true
   googleAnalytics:
     anonymizeIP: true
-    disable: false
-    useSessionStorage: true
+    disable: true
+    useSessionStorage: false
   twitter:
     disable: false
     enableDNT: true
