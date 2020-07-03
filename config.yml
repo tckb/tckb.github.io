@@ -93,8 +93,8 @@ params:
     - kubernetes
   avatar: "/img/profile.jpg"
   since: 2020
-  pagetitle: "All things about DevOps++"
-  subtitle: "All things about DevOps++"
+  pagetitle: "design, develop, hack and repeat!"
+  subtitle: "design, develop, hack and repeat!"
   socialShare: true
   commit: "https://gitlab.com/tckb1/tckb1.gitlab.io/tree/"
   favicon_png: favicon.png
