@@ -93,8 +93,8 @@ params:
     - kubernetes
   avatar: "/img/profile.jpg"
   since: 2020
-  pagetitle: "design, develop, hack and repeat!"
-  subtitle: "design, develop, hack and repeat!"
+  pagetitle: "Tips and tricks for developers and selfhost enthusiasts"
+  subtitle: "Tips and tricks for developers and selfhost enthusiasts"
   socialShare: true
   commit: "https://gitlab.com/tckb1/tckb1.gitlab.io/tree/"
   favicon_png: favicon.png
