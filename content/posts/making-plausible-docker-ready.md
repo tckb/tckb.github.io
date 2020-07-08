@@ -13,6 +13,8 @@ keywords :
  - 'selfhosting'
 images:
  - https://analytics.dev.tgrthi.me/images/icon/plausible_logo-973ea42fac38d21a0a8cda9cfb9231c9.png
+aliases:
+  - /2020/making-plausible-docker-ready/
 ---
 Creating a docker ready fork for Plausible Analytics
 =====================

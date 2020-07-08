@@ -47,5 +47,9 @@
   {{- end -}}
   <meta name="google-site-verification" content="cMAN242MNkQALE0zelsu0e7brm82TRubbjMFtveEI0w" />
   <script async defer data-domain="tckb.tgrthi.me" src="https://analytics.dev.tgrthi.me/js/plausible.js"></script>
+  {{ if .Data.Singular }}
+  <meta name="robots" content="noindex">
+  {{- else -}}
   <meta property="robots" content="index,follow">
+  {{ end }}
 </head>

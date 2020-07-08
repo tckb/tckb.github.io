@@ -6,11 +6,14 @@ title : |
 description : |
  Hacking Kuando Busylight to create new and fancy status lights. This article explains how the communication protocol works.
 keywords :  
- - 'Busylight'
- - 'Kuando'
+ - 'Kuando Busylight'
  - 'Plenom'
 images :
  - /img/busylight.jpg
+aliases:
+  - /2020/busylight-driver/
+tags:
+- Busylight
 ---
 ![Kuando Busylight UC Omega interfaced with Raspberry pi running Busylight REST interface](/img/busylight.jpg) _Kuando Busylight Omega interfaced with Raspberry pi running Busylight REST interface_  
 

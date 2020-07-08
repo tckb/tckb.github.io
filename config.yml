@@ -29,7 +29,7 @@ frontmatter:
     - default
 
 Permalinks:
-  posts: "/:year/:filename/"
+  posts: "/:filename"
 
 menu:
   main:
