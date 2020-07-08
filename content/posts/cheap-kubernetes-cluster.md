@@ -15,6 +15,8 @@ tags:
 - kubernetes
 series:
 -  Cheap kubernetes hosting 
+images :
+ - /img/best-price.png
 ---
 Cheap Kubernetes Cluster
 =====================

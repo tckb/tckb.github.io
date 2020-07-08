@@ -9,6 +9,8 @@ keywords :
  - 'Busylight'
  - 'Kuando'
  - 'Plenom'
+images :
+ - /img/busylight.jpg
 ---
 ![Kuando Busylight UC Omega interfaced with Raspberry pi running Busylight REST interface](/img/busylight.jpg) _Kuando Busylight Omega interfaced with Raspberry pi running Busylight REST interface_  
 
