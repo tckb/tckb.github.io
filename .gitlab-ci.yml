@@ -11,7 +11,7 @@ test:
 
 pages:
   script:
-  - HUGO_ENV=production hugo --gc --minify
+  - HUGO_ENV=production hugo --gc --minify && gzip -k -6 $(find public -type f)
   artifacts:
     paths:
     - public
