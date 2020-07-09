@@ -6,7 +6,7 @@ title : |
 description : |
     This article series explains how to host kubernetes cluster in an ultra low budget of 15 euros or less for non-production loads
 keywords :  
- - 'Cheap Kubernetes hosting'
+ - 'Cheap Kubernetes cluster'
 aliases:
   - /2020/cheap-k8s/
 tags: 

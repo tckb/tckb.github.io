@@ -7,7 +7,6 @@ description : |
  Hacking Kuando Busylight to create new and fancy status lights. This article explains how the communication protocol works.
 keywords :  
  - 'Kuando Busylight'
- - 'Plenom'
 images :
  - /img/busylight.jpg
 aliases:

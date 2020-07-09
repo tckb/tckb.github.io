@@ -10,7 +10,6 @@ tags:
 - analytics
 keywords :  
  - 'Plausible Analytics'
- - 'selfhosting'
 images:
  - https://analytics.dev.tgrthi.me/images/icon/plausible_logo-973ea42fac38d21a0a8cda9cfb9231c9.png
 aliases:
