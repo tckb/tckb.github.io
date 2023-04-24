@@ -1,7 +1,7 @@
 ---
 title: "about me"
 description : |
-  About Chandra Tungathurthi
+  About Chandra 
 aliases:
   - me
   - contact
@@ -22,6 +22,7 @@ A some selected summary about me --
 * B2B
 
 ### Professional Focus 
+* Integration Specialist
 * Cloud Operations/Infrastructure
 * Microservices
 * Distributed Systems

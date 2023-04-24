@@ -1,5 +1,5 @@
-baseUrl: https://tckb.tgrthi.me/
-title: "tscha-n-dra-s"
+baseUrl: https://blog.tgrthi.me
+title: "tscha-n-dra-s blog"
 theme: hugo-vitae
 languagecode: en
 defaultcontentlanguage: en
@@ -13,7 +13,7 @@ enableEmoji: true
 enableRobotsTXT: true
 enableGitInfo: true
 footnoteReturnLinkContents: ↩
-googleAnalytics: "UA-167549458-1"
+googleAnalytics: ""
 uglyURLs: false
 copyright: "© 2020 Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
 

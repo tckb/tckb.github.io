@@ -1,1 +1,1 @@
-[![pipeline status](https://gitlab.com/tckb1/tckb1.gitlab.io/badges/master/pipeline.svg)](https://gitlab.com/tckb1/tckb1.gitlab.io/commits/master)
+[![Deploy Hugo site to Pages](https://github.com/tckb/tckb.github.io/actions/workflows/hugo.yaml/badge.svg)](https://github.com/tckb/tckb.github.io/actions/workflows/hugo.yaml)
