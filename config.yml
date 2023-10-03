@@ -94,7 +94,7 @@ params:
   avatar: "/img/profile.jpg"
   since: 2020
   pagetitle: "🇮🇳 / 🇩🇪 Tech Architect & Writer |  Covering Science, Tech & AI/LLM | Launched and curating #KnowYourISRO via @isro | Building Soma Unified Portal"
-  subtitle: "..."
+  subtitle: "Stuff about GIS, Chandrayaan and Tech in general"
   socialShare: true
   commit: "https://gitlab.com/tckb1/tckb1.gitlab.io/tree/"
   favicon_png: favicon.png
