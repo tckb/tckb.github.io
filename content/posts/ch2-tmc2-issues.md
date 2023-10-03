@@ -1,7 +1,7 @@
 ---
-title: Potential Issues with Chandrayaan2 dataset
+title:  Potential Issues with Chandrayaan2 TMC2 Dataset / Shapefiles
 description : |
-   Potential Issues with Chandrayaan2 TMC2 Dataset / Shapefiles
+  In this blog post, I try to explain the issues I have and some possible explanation of the cause. I also try give to some background knowledge to understand this blogpost.
 type:
 - posts
 - post
@@ -13,7 +13,7 @@ keywords :
  - 'chandrayaan'
  - 'isro'
 ---
-This blog post is a part of [#knowyourISRO](https://twitter.com/search?q=%23KnowYourISRO&src=hashtag_click) series_
+_This blog post is a part of [#knowyourISRO](https://twitter.com/search?q=%23KnowYourISRO&src=hashtag_click) series_
 
 **Disclaimer** 
 
