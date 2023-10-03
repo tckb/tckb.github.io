@@ -19,7 +19,7 @@ _This blog post is a part of [#knowyourISRO](https://twitter.com/search?q=%23Kno
 
 This is a revised version of the document I originally submitted to [ISRO's Ahmadabad SAC](https://www.sac.gov.in/Vyom/index). The purpose is to understand and hopefully resolve the issues observed in the shapefiles provided by ISRO for public dissemination. Despite reaching out through various channels, I have not received any response from ISRO Ahmedabad SAC to address these concerns. Hence, I am extending this inquiry to the wider scientific community and interested parties who may be able to assist.
 
-<img width="915" alt="image" src="https://github.com/tckb/ch2-tmc2-dataset-issues/assets/939542/84d06373-1530-4e30-b3dc-efb6837eb195">
+<img width="915" alt="image" src="/img/272233364-84d06373-1530-4e30-b3dc-efb6837eb195.png">
 
 ## Table of Contents
 - [Disclaimer](#disclaimer)
