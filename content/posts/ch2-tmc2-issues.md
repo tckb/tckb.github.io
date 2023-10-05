@@ -30,7 +30,6 @@ Despite my efforts in reaching out through various channels, I have not received
 - [Primary Objectives of using the Dataset](#primary-objectives-of-using-the-dataset)
   - [Search for points of interests within the full catalogue using Shapefiles](#search-for-points-of-interests-within-the-full-catalogue-using-shapefiles)
   - [Building 3D-Topographic Models](#building-3d-topographic-models)
-- [source: topograhy view of Chang'e 6 Landing site](#source-topograhy-view-of-change-6-landing-site)
 - [Potential Issues](#potential-issues)
   - [Issue#1: Erroneous Stray Data Observed Outside the Normal Image Data Strip](#issue1-erroneous-stray-data-observed-outside-the-normal-image-data-strip)
   - [Issue#2: Location Inaccuracy between DTM and Orthographic Images](#issue2-location-inaccuracy-between-dtm-and-orthographic-images)
@@ -78,12 +77,9 @@ Furthermore, both DEM/DTM and Orthographic dataset help in building a 3d topogra
 ![3d-topography.png](/img/3d-topography.png)
 
 source: [topograhy view of Chang'e 6 Landing site](https://twitter.com/this_is_tckb/status/1708991962748015064)
----
 
 
 ---
-
-
 ## Potential Issues
 
 ### Issue#1: Erroneous Stray Data Observed Outside the Normal Image Data Strip
