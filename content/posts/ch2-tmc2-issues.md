@@ -19,6 +19,7 @@ _This blog post is a part of [#knowyourISRO](https://twitter.com/search?q=%23Kno
 
 This is a revised version of the document I originally submitted to [ISRO's Ahmadabad SAC](https://www.sac.gov.in/Vyom/index). The purpose is to understand and hopefully resolve the issues observed in the shapefiles provided by ISRO for public dissemination. 
 
+
 I hoped to get a correction or an explanation/pointer on where I was reading the data wrong. It is my understanding that they are responsible for these applications and an error in the data provided (if found one) must be corrected. 
 
 Despite my efforts in reaching out through various channels, I have not received any response from ISRO Ahmedabad SAC to address these concerns. Hence, I am extending this inquiry to the wider scientific community and interested parties who may be able to assist.
@@ -58,6 +59,7 @@ Despite my efforts in reaching out through various channels, I have not received
 
 One of the main observations is what you see in the image. The dimensions of both DTM and Ortho images fit in the shape file. Although unlike other datasets, the polygon seems to be “stretched” outside the bounds of the image strip. On closer examination, extra stray data is observed only in DTM right below the green  polygon; it is observed that the polygon is stretched until the stray data and the polygon is closed at that edge.
 
+![isro-extra-junk.gif](/images/dtm_stray_data.gif)
 ![isro-extra-junk.png](/img/isro-extra-junk.png)
 
 
@@ -65,6 +67,7 @@ Is the stray data outside the normal image strip expected or a result of erroneo
 
 ### Issue#2: Location Inaccuracy between DTM and Orthographic Images
 
+![isro-extra-junk.gif](/images/ddtm_oth_mismatch.gif)
 ![isro-displated-layers](/img/isro-displaced-layers.png)
 
 It is my understanding that the DTM and Ortho need to perfectly align to achieve a 3d reconstruction of the site and minor inaccuracy is still acceptable. However, in the above picture, you see there is a clear and notable mis-alignment (QGIS> go 136670.736, 874537.345). This would not result in an accurate 3d reconstruction of the site.  
@@ -74,6 +77,7 @@ What is also observable is that the mis-alignment is both in longitude and latit
 
 While the mismatched of shape file and derived products  can be explained due to Issue#1,  the DTM and Ortho image also do not match. In this product, the derived product differs by more than 1.5KM . This difference was observed in multiple products but it is inconsistent.
 
+![isro-extra-junk.gif](/images/dtm_oth_misalign.gif)
 ![isro-mismatched-shapes](/img/isro-mismatched-shapes.png)
 
 ### Possible Explanation
