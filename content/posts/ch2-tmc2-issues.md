@@ -65,7 +65,7 @@ Is the stray data outside the normal image strip expected or a result of erroneo
 
 ### Issue#2: Location Inaccuracy between DTM and Orthographic Images
 
-![isro-displated-layers](/img/isro-displated-layers.png)
+![isro-displated-layers](/img/isro-displaced-layers.png)
 
 It is my understanding that the DTM and Ortho need to perfectly align to achieve a 3d reconstruction of the site and minor inaccuracy is still acceptable. However, in the above picture, you see there is a clear and notable mis-alignment (QGIS> go 136670.736, 874537.345). This would not result in an accurate 3d reconstruction of the site.  
 What is also observable is that the mis-alignment is both in longitude and latitude. Could this be also a related issue during the derivation?
@@ -78,7 +78,7 @@ While the mismatched of shape file and derived products  can be explained due to
 
 ### Possible Explanation
 
-These issues (#1,#2, #3) point to the fact that there could be a potential bug during the derivation of certain data productions as these inconsistencies are not observed in all the data products.
+These issues (#1,#2, #3) point to the fact that there could be a potential bug during the derivation of certain data dataproducts as these inconsistencies are not observed in all the data products.
 
 ---
 
