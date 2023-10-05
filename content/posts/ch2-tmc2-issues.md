@@ -19,8 +19,7 @@ _This blog post is a part of [#knowyourISRO](https://twitter.com/search?q=%23Kno
 
 This is a revised version of the document I originally submitted to [ISRO's Ahmadabad SAC](https://www.sac.gov.in/Vyom/index). The purpose is to understand and hopefully resolve the issues observed in the shapefiles provided by ISRO for public dissemination. 
 
-
-I hoped to get a correction or an explanation/pointer on where I was reading the data wrong. It is my understanding that they are responsible for these applications and an error in the data provided (if found one) must be corrected. 
+I strongly urge ISRO to thoroughly review the observations I've outlined below. The datasets currently available on the PRADAAN portal appear to contain errors, rendering them unfit for any substantive analysis. I am prepared to supply additional information as required, or to rectify any errors on my end.
 
 Despite my efforts in reaching out through various channels, I have not received any response from ISRO Ahmedabad SAC to address these concerns. Hence, I am extending this inquiry to the wider scientific community and interested parties who may be able to assist.
 
@@ -28,14 +27,15 @@ Despite my efforts in reaching out through various channels, I have not received
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
+- [Primary Objectives of using the Dataset](#primary-objectives-of-using-the-dataset)
+  - [Search for points of interests within the full catalogue using Shapefiles](#search-for-points-of-interests-within-the-full-catalogue-using-shapefiles)
+  - [Building 3D-Topographic Models](#building-3d-topographic-models)
+- [source: topograhy view of Chang'e 6 Landing site](#source-topograhy-view-of-change-6-landing-site)
 - [Potential Issues](#potential-issues)
-  - [Issue#1: Superfluous Stray Data Observed Outside the Normal Image Data Strip](#issue1-superfluous-stray-data-observed-outside-the-normal-image-data-strip)
+  - [Issue#1: Erroneous Stray Data Observed Outside the Normal Image Data Strip](#issue1-erroneous-stray-data-observed-outside-the-normal-image-data-strip)
   - [Issue#2: Location Inaccuracy between DTM and Orthographic Images](#issue2-location-inaccuracy-between-dtm-and-orthographic-images)
   - [Issue#3: Mismatched Dimensions of DTM/Ortho and Shape Images](#issue3-mismatched-dimensions-of-dtmortho-and-shape-images)
-  - [Possible Explanation](#possible-explanation)
-- [Primary Objectives of using the Dataset](#primary-objectives-of-using-the-dataset)
-  - [Identify Point of Interests / POI within the Dataset](#identify-point-of-interests--poi-within-the-dataset)
-  - [Building 3D-Topographic Models](#building-3d-topographic-models)
+  - [Possible Explanation & Disappointment](#possible-explanation--disappointment)
 - [Demonstrative Dataset](#demonstrative-dataset)
   - [Derived Products / Level 2](#derived-products--level-2)
   - [Calibrated Products / Level 1](#calibrated-products--level-1)
@@ -53,44 +53,11 @@ Despite my efforts in reaching out through various channels, I have not received
 
 ---
 
-## Potential Issues
-
-### Issue#1: Superfluous Stray Data Observed Outside the Normal Image Data Strip
-
-One of the main observations is what you see in the image. The dimensions of both DTM and Ortho images fit in the shape file. Although unlike other datasets, the polygon seems to be “stretched” outside the bounds of the image strip. On closer examination, extra stray data is observed only in DTM right below the green  polygon; it is observed that the polygon is stretched until the stray data and the polygon is closed at that edge.
-
-![isro-extra-junk.gif](/img/dtm_stray_data.gif)
-![isro-extra-junk.png](/img/isro-extra-junk.png)
-
-
-Is the stray data outside the normal image strip expected or a result of erroneous production during the derivation? It is my suspension that it is due to this stray data the shape is extended beyond the normal image strip and causing the mismatch between level1, and level2 data products.
-
-### Issue#2: Location Inaccuracy between DTM and Orthographic Images
-
-![isro-extra-junk.gif](/img/ddtm_oth_mismatch.gif)
-![isro-displated-layers](/img/isro-displaced-layers.png)
-
-It is my understanding that the DTM and Ortho need to perfectly align to achieve a 3d reconstruction of the site and minor inaccuracy is still acceptable. However, in the above picture, you see there is a clear and notable mis-alignment (QGIS> go 136670.736, 874537.345). This would not result in an accurate 3d reconstruction of the site.  
-What is also observable is that the mis-alignment is both in longitude and latitude. Could this be also a related issue during the derivation?
-
-### Issue#3: Mismatched Dimensions of DTM/Ortho and Shape Images
-
-While the mismatched of shape file and derived products  can be explained due to Issue#1,  the DTM and Ortho image also do not match. In this product, the derived product differs by more than 1.5KM . This difference was observed in multiple products but it is inconsistent.
-
-![isro-extra-junk.gif](/img/dtm_oth_misalign.gif)
-![isro-mismatched-shapes](/img/isro-mismatched-shapes.png)
-
-### Possible Explanation
-
-These issues (#1,#2, #3) point to the fact that there could be a potential bug during the derivation of certain data dataproducts as these inconsistencies are not observed in all the data products.
-
----
-
 ## Primary Objectives of using the Dataset
 
-### Identify Point of Interests / POI within the Dataset
+### Search for points of interests within the full catalogue using Shapefiles
 
-One of the main objectives is to explore the desired set of points of interest within the TMC2 dataset.
+One of the important objectives is to explore the desired set of points of interest within the TMC2 dataset.
 
 **For example:**
 
@@ -111,8 +78,46 @@ Furthermore, both DEM/DTM and Orthographic dataset help in building a 3d topogra
 ![3d-topography.png](/img/3d-topography.png)
 
 source: [topograhy view of Chang'e 6 Landing site](https://twitter.com/this_is_tckb/status/1708991962748015064)
+---
+
 
 ---
+
+
+## Potential Issues
+
+### Issue#1: Erroneous Stray Data Observed Outside the Normal Image Data Strip
+
+The default assumption is the data is going to come in a strip and the shapefiles indicate the boundaries of these strips. But in multiple cases it is observed that the images have erroneous "extra" data outside and far away from the strip which is causing shapefiles to extend far beyond the actual coverage. This makes searching and using the shapefiles impossible and renders shapefiles useless. You can observe this in the image the green shape polygon seems to be “stretched” outside the image. Note the extra junk data at the edge, I have indicated this error data in red arrows. 
+
+![isro-extra-junk.gif](/img/dtm_stray_data.gif)
+![isro-extra-junk.png](/img/isro-extra-junk.png)
+
+
+Is the stray data outside the normal image strip expected or a result of erroneous production during the derivation? I believe this stray data is the reason the shape is stretched out beyond the normal image strip and causing these issues.
+
+### Issue#2: Location Inaccuracy between DTM and Orthographic Images
+
+![isro-extra-junk.gif](/img/dtm_oth_mismatch.gif)
+![isro-displated-layers](/img/isro-displaced-layers.png)
+
+It is my understanding that the DEM/DTM and Ortho needs= to perfectly align to achieve a 3d reconstruction of a site and minor inaccuracy is still acceptable. However, in the above picture, you see there is a clear and notable mis-alignment (QGIS> go 136670.736, 874537.345). This would not result in an accurate 3d reconstruction of the site.  This makes both of these files not useful at all. I have seen many in this condition. 
+
+What is also observable is that the mis-alignment is both in longitude and latitude. Could this be also a related issue during the derivation?
+
+### Issue#3: Mismatched Dimensions of DTM/Ortho and Shape Images
+
+While the mismatched of shape file and derived products  can be explained due to Issue#1,  the DTM and Ortho image also do not match. In this product, the derived product differs by more than 1.5KM . This difference was observed in multiple products but it is inconsistent.
+
+![isro-extra-junk.gif](/img/dtm_oth_misalign.gif)
+![isro-mismatched-shapes](/img/isro-mismatched-shapes.png)
+
+### Possible Explanation & Disappointment
+
+These issues (#1,#2, #3) tells me that there could be a potential bug during the derivation of certain data data products as these inconsistencies are not observed in all the data products.
+
+Due to the lack of communication from ISRO, I can arrive to this conclusion that the current state of datasets provided can not be used for _any meaningful analysis_ unless the bugs are fixed while generating derived products or shape files updated. My primary objectives seemed unresolved with the data provided as it is. 
+
 
 ## Demonstrative Dataset
 
